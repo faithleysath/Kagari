@@ -1,8 +1,42 @@
-site_name: My site
-site_url: https://mydomain.org/mysite
+site_name: Kagari | 篝火
+site_url: https://docs.kagari.app/
+site_author: Faith Leysath
+site_description: Kagari, an AI-driven open-source TRPG, aims to deliver an immersive storytelling experience.
+# Repository
+repo_name: faithleysath/Kagari
+repo_url: https://github.com/faithleysath/Kagari
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2025 Faith Leysath
 theme:
   name: material
   language: zh
+  palette:
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/link
+    #     name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
 extra:
   alternate:
     - name: English
