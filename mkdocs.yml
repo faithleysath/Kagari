@@ -5,6 +5,7 @@ site_description: Kagari, an AI-driven open-source TRPG, aims to deliver an imme
 # Repository
 repo_name: faithleysath/Kagari
 repo_url: https://github.com/faithleysath/Kagari
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2025 Faith Leysath
@@ -37,6 +38,11 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
+    - navigation.sections
+    - navigation.tabs
+    - content.action.edit
+    - content.action.view
+    - toc.follow
 extra:
   alternate:
     - name: English
