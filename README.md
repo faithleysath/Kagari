@@ -74,7 +74,7 @@ Kagari 的 V1.0 专注于一件事：**体验**。我们优先实现那些能立
 
 1.  克隆仓库：
     ```bash
-    git clone [https://github.com/faithleysath/Kagari.git](https://github.com/faithleysath/Kagari.git)
+    git clone https://github.com/faithleysath/Kagari.git
     ```
 2.  安装依赖：
     ```bash
@@ -106,3 +106,6 @@ Kagari 的 V1.0 专注于一件事：**体验**。我们优先实现那些能立
 2.  **网络条款：** 如果你修改了 Kagari 的代码，并通过网络（例如作为一个网站或 PWA）向公众**提供服务**，你**必须**以同样的 AGPL-3.0 许可证，向所有用户提供你修改后的**完整源代码**。
 
 我们选择 AGPL-3.0 是为了确保 Kagari 及其衍生作品始终保持开源和自由，防止其被“闭源 SaaS 化”，从而保护整个社区的成果。
+
+## Star History
+[![Star History Chart](https://app.repohistory.com/api/svg?repo=faithleysath/Kagari&type=Date&background=FFFFFF&color=f86262)](https://app.repohistory.com/star-history)
