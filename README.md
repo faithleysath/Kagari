@@ -29,7 +29,7 @@ Kagari 将 LLM 的文本输出结构化为游戏指令，实现传统聊天无�
 * **🎨 沉浸式氛围 (Immersive Atmosphere)**
     * 由 AIGC 实时驱动的场景插图和动态 BGM，让你的每一步冒险都“声”临其境。
 
-* **🧠 双 Agent 辅助 (Dual-Agent Assistance)**
+* **🧠 多 Agent 辅助 (Multi-Agent Assistance)**
     * **玩家 Agent (书记官):** 自动“观看”剧情，以玩家的有限视角总结和归类所有已知信息（人物、地点、线索、物品），并呈现在 UI 上。
     * **作家 Agent (小说家):** 游戏结束后，自动将你的冒险历程（包括 GM 描述和玩家选择）创作为一部文笔优美、可供收藏的同人小说。
 
@@ -79,11 +79,15 @@ Kagari 的 V1.0 专注于一件事：**体验**。我们优先实现那些能立
 2.  安装依赖：
     ```bash
     cd Kagari
-    npm install
+    bun install
     ```
 3.  运行开发服务器：
     ```bash
-    npm run dev
+    bun run dev
+    ```
+4.  构建生产版本：
+    ```bash
+    bun run build
     ```
 
 ## 🤝 贡献指南
